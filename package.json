@@ -1,0 +1,23 @@
+{ 
+    "name": "metadata_node",
+    "version": "1.0.0",
+    "description": "Node express file chunks uploader",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "metadata"
+    ],
+    "author": "jrf1@cdc.gov",
+    "license": "MIT",
+    "dependencies": {
+      "@rstcruzo/express-chunked-file-upload": "^0.2.0",
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.3",
+      "file-chunked": "^1.0.4",
+      "fs": "0.0.1-security",
+      "multer": "^1.4.4"
+    }
+  }
